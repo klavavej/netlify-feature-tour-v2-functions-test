@@ -3,3 +3,7 @@ export default async () => {
 
   return new Response(`hello world! I care about the ${myEnv}`);
 };
+
+export const config = {
+  path: ["/api/hello-world"]
+}
